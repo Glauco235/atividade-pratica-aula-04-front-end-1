@@ -1,0 +1,80 @@
+/* Questão 16: Alterando a fonte de toda a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Questão 17: Estilizando o título principal */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Questão 18: Utilizando seletores agrupados para h2 e h3 */
+h2, h3 {
+    color: darkgreen;
+}
+
+/* Questão 19: Utilizando uma classe para destacar um parágrafo */
+.destaque {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Questão 20: Utilizando um seletor ID para destacar a seção sobre */
+#sobre {
+    background-color: lightgray;
+}
+
+/* Questão 21 & 24: Estilizando a imagem e flutuação */
+img {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Questão 22: Aplicando espaçamento interno ao <main> */
+main {
+    padding: 20px;
+}
+
+/* Questão 23: Aplicando margens externas às seções */
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Questão 25: Estilizando a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Questão 26: Estilizando o menu de navegação */
+nav {
+    background-color: darkblue;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Questão 27: Estilizando o rodapé */
+footer {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
